@@ -1,0 +1,143 @@
+/* Profile Container */
+.profile-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f9fafb; 
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Profile Header */
+.profile-header {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    border-bottom: 2px solid #e5e7eb; 
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ccc;
+}
+
+.profile-info {
+    flex-grow: 1;
+}
+
+.student-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.student-id,
+.student-email {
+    font-size: 1rem;
+    color: #4b5563;
+}
+
+.edit-profile-btn, .save-btn {
+    padding: 0.5rem 1rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.edit-profile-btn:hover, .save-btn:hover {
+    background-color: #333;
+}
+
+/* Editable Inputs */
+.profile-input {
+    display: block;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+}
+
+/* Meal Preferences */
+.meal-preferences {
+    margin-bottom: 2rem;
+}
+
+.section-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #1f2937;
+    
+}
+
+.preference-item {
+    font-size: 1rem;
+    color: #4b5563;
+    margin-bottom: 0.5rem;
+}
+
+/* Order History */
+.order-history {
+    margin-bottom: 2rem;
+}
+
+.order-item {
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+}
+
+.order-date {
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin-bottom: 0.5rem;
+}
+
+.order-details {
+    font-size: 1rem;
+    color: #1f2937;
+}
+
+.order-total {
+    font-size: 1rem;
+    color: #1f2937;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+.order-history-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem; 
+}
+
+
+.download-pdf-btn {
+    padding: 0.75rem 1.5rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-weight: bold;
+    
+  }
+  
+  .download-pdf-btn:hover {
+    background-color: #5e4a4a;
+  }
+  

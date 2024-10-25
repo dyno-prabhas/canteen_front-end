@@ -1,0 +1,43 @@
+
+.navbar {
+    
+    background-color: black;
+    width: 100%;
+    position: relative;
+}
+
+.header {
+   display: flex;
+   width: 100%;
+   align-items: center;
+   justify-content: space-between;
+   color: rgba(255, 255, 255, 0.80);
+   padding: 20px;
+   margin-right: 10px;
+}
+.logo {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+}
+
+.link-item {
+    margin-right: 25px;
+}
+
+.link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.50);
+    font-weight: 500;
+    font-size: 15px;
+    transition: all 0.4s;
+    font-style: italic;
+}
+
+.link:hover {
+    color: rgba(255, 255, 255, 1);
+}
