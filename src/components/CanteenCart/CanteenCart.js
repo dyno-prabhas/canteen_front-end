@@ -19,7 +19,8 @@ const CanteenCart = () => {
   };
 
   return (
-    <div className="cart-container">
+    <div >
+      <div className="cart-container">
       {canteenItems.length === 0 ? (
         <EmptyCart />
       ) : (
@@ -37,6 +38,7 @@ const CanteenCart = () => {
           </div>
         </div>
       )}
+    </div>
     </div>
   );
 };

@@ -4,6 +4,8 @@ import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
 import HomeImage from '../HomeImage/HomeImage';
 
+import './Home.css'
+
 const Home = () => {
 
   return (
@@ -23,10 +25,9 @@ const Home = () => {
         </Link> */}
 
       </div>
-      <div>
+      
         <CanteenMenu />
         <Footer />
-      </div>
     </div>
     </div>
   );

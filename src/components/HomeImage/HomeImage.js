@@ -7,8 +7,7 @@ function HomeImage() {
     <div className='home-img'>
         <div className='home-text'>
             <h1 className='responsive-text'>Raghu College</h1>
-            <h3>Welcome to our Canteen ! <br /> 
-              Indulge in a variety of delicious meals, ref
+            <h3>Welcome to our Canteen ! <br />
             </h3>
         </div>
     </div>

@@ -1,0 +1,26 @@
+.subcategory-buttons {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.subcategory-button {
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.subcategory-button.active {
+    background-color: green;
+    color: white;
+}
+
+.subcategory-button:hover {
+    background-color: #e0ffe0;
+}
